@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+  
+  --color-brand-cream: #FDFCF7;
+  --color-brand-cream-dark: #EFECE6;
+  --color-brand-forest: #1A2E1A;
+  --color-brand-forest-light: #2A4A2A;
+  --color-brand-leaf: #3A6A3A;
+  --color-brand-gold: #C2A570;
+  
+  /* Layout constraints for fluid but max-width containers */
+  --container-max: 1440px;
+}
